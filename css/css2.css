@@ -1,0 +1,176 @@
+body {
+    margin:0;
+    font-family: 'Open Sans', sans-serif;
+}
+#conteudo1 {
+    float: center;
+    width:97%;
+    height: 50px;
+    padding:20px;
+    margin:-20px auto;
+    background:black;
+}
+
+#conteudo1 h2 a {
+    text-decoration: none;
+    color:white;
+    text-align: left;
+    font-family: MS Sans Serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+.ikon{
+    
+    margin-left: 20px;
+    margin-top: 9px;
+}
+.ff {
+    width:800px;
+    margin: 0% 0% 2% 0% ;
+    text-align:center;
+}
+.search {
+    padding:6px 20px;
+    background:#fff;
+    border:1px solid #FFF;
+    border-radius: 1px;
+    margin-top: 8px;
+
+}
+.button {
+    position:relative;
+    padding:6px 6px;
+    left:-5px;
+    border:1px solid grey;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    background-color:grey;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#A9A9A9;
+    
+} 
+nav {
+    line-height:50px; 
+    width:450px;
+    margin:-60px 0px 0px 400px;
+}
+nav ul {
+    list-style:none;
+}
+nav ul li a {
+    float:left;
+    font-family:MS Sans Serif;
+    width:90px;
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    text-align:center;
+}
+/*HEADER END*/
+
+.blog {
+    position:relative;
+    width:97%;
+    float:center;
+    padding-top: 20px;
+}
+
+.blog .widget {
+    margin-left: 50px;
+    background:transparent;
+    transition: all 0.5s ease;
+} 
+
+.widget h3 {
+    text-align: center;
+    margin:15px 0 15px 0;
+    font-size: : 15px;
+    color: #666;
+    font-family: 'Adobe Gothic Std B';
+}
+
+div.gallery {
+    margin: 20px;
+    float: left;
+    width: 300px;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc{
+    color: #2F4F4F;
+    font-weight: 500;
+    font-size: 17px;
+    font-family: 'Segoe UI Symbol';
+}
+
+.kotak{
+  	border: 2px solid #eee;
+    border-radius:5%;
+    width: 90%;
+    padding: 5px;
+}
+.tombol{
+  	border: 2px solid #eee;
+    border-radius:5%;
+    width: 20%;
+    padding: 5px;
+}
+.tbl{
+    background: #666;
+    color: #fff;
+    border: 2px solid #666;
+    border-radius:5%;
+    width: 50%;
+    padding: 8px;
+    font-weight: bold;
+}
+.a a{
+    color: #fff;
+    font-weight: bold;
+
+}
+    
+.conteudo {
+    width: 80%;
+    height: 100%;
+    float:left;
+    margin-top:25px;
+    margin-left: 150px;
+    background: transparent;
+}
+
+.table2 {
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    color: #444;
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #f2f5f7;
+}
+ 
+ 
+.table2 tr th{
+    background: #666;
+    color: #fff;
+    font-weight: bold;
+}
+ 
+.table2, th, td {
+    padding: 8px 20px;
+    
+}
+ 
+.table2 tr:hover {
+    background-color: #f5f5f5;
+}
+ 
+.table2 tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
